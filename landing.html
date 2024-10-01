@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">Development</h1>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle" id="theme-toggle">🌗</div>
+        <div class="hamburger-menu" id="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <h1 class="hero-title">Welcome to <span class="hero-highlight">Web Dev World</span></h1>
+        <p class="hero-subtitle">Your journey to becoming a web expert starts here.</p>
+        <a href="#services" class="cta-btn">Get Started</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>Web Development</h3>
+            <p>We build responsive and interactive websites using the latest technologies.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-icon">🎨</div>
+            <h3>UI/UX Design</h3>
+            <p>We craft user-friendly and visually appealing interfaces.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-icon">⚙️</div>
+            <h3>Automation</h3>
+            <p>We enhance your web applications with seamless automation solutions.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are a team of passionate web developers, delivering innovative and interactive digital experiences. Our goal is to push the limits of creativity and code.</p>
+        <p>We specialize in creating immersive 3D web designs, responsive layouts, and high-performance web applications.</p>
+        <div class="about-features">
+            <div class="feature-card">
+                <h3>Experience</h3>
+                <p>Over 10 years of industry experience in modern web technologies.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Innovation</h3>
+                <p>Pioneering cutting-edge 3D web experiences that stand out.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Excellence</h3>
+                <p>Committed to delivering high-quality projects on time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Web Dev World. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
